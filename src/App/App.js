@@ -6,7 +6,9 @@ import '../common/style/style.scss'
 function App() {
   return (
     <div className="App">
-      <div className="row"></div>
+      <div className="row">
+        
+      </div>
     </div>
   );
 }
