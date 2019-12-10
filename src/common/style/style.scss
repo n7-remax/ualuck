@@ -1,4 +1,16 @@
+%white-color {
+    color: #ffffff;
+}
+
+%theme-color {
+    color: #00b7ff;
+}
+
 h1,h2,h3,h4,h5,h6,p,a,span {
     padding: 0;
     margin: 0;
+}
+
+p {
+    @extend %white-color;
 }
