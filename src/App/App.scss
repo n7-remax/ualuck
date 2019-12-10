@@ -1,0 +1,16 @@
+%row-max-width{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.App {
+  background-image: url('../common/images/bg.jpg');
+  width: 1440px;
+  height: 900px;
+  background-size: cover;
+}
+
+.row {
+  @extend %row-max-width
+
+}
