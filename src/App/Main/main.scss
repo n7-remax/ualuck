@@ -1,4 +1,19 @@
+@import "../../common/style/style.scss";
+
 .main {
     max-width: 900px;
     margin: 0 auto;
+
+    p {
+        font-size: 43px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+
+    span {
+        @extend %theme-color;
+        font-size: 63px;
+        letter-spacing: 0px;
+    }
 }
