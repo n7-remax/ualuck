@@ -12,7 +12,7 @@ function Main() {
                 </div>
                 <div className="registration-buttons">
                     <div className="buttons-place">
-                        <div className="button"><span>в 1 клік</span></div>
+                        <div className="button"><span>В 1 клік</span></div>
                         <div className="button"><span>По Email</span></div>
                         <div className="button"><span>Соц. мережі</span></div>
                     </div>
