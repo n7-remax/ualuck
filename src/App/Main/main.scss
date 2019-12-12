@@ -1,8 +1,14 @@
 @import "../../common/style/style.scss";
 
 .main {
-    max-width: 900px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 1020px;
+    margin:0 auto;
+
+    .registration-block {
+        align-self: center;
+    }
 
     p {
         font-size: 43px;
@@ -32,4 +38,15 @@
         color: #ffffff;
         }
     }
+
+    .img-place{ 
+        text-align: center;
+        
+        img {
+        max-width: 558px;
+        width: 100%;
+        height: auto;
+        }
+    }
+
 }
