@@ -21,6 +21,9 @@ function Main() {
                             <input placeholder="Email"></input>
                         </form>
                     </div>
+                    <div className="promocode">
+                    <span>Додати промокод</span><span className="promocode-button">&#43;</span>
+                    </div>
                 </div>
             </div>
             <div className="img-place">

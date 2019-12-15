@@ -59,6 +59,8 @@
         }
     }
 
+    //apply form with input
+
     .apply {
         margin:15px 0 28px 0;
         
@@ -72,13 +74,37 @@
         font-weight: bold;
         text-indent: 10px;
 
-        &:focus {
+            &:focus {
             outline: none;
-        }
+            }
     
+        }
     }
-}
 
+    //promocode section
+
+    .promocode {
+        padding-bottom: 40px;
+        
+        span {
+            color: $white-color;
+            font-size: 14px;
+            letter-spacing: 0.61px;
+            font-weight: bold;
+        }
+
+        .promocode-button{
+            background-color: $primary-color;
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            margin-left: 10px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
     //image
 
     .img-place{ 
