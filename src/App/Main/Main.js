@@ -16,6 +16,11 @@ function Main() {
                         <div className="button"><span>По Email</span></div>
                         <div className="button"><span>Соц. мережі</span></div>
                     </div>
+                    <div className="apply">
+                        <form>
+                            <input placeholder="Email"></input>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div className="img-place">
