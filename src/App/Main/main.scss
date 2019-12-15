@@ -203,6 +203,46 @@
       }
 
     }
+
+    .sign-up {
+        padding-top:40px;
+        display: flex;
+        
+        .button {
+
+            padding: 14px 30px;
+            font-weight: 800;           
+            font-style: normal;
+            line-height: normal;
+            background-color: $primary-color;
+            border-radius: 43px;
+            box-shadow: 0 24px 41px 0 rgba(0, 183, 255, 0.19);
+            cursor: pointer;
+        }
+
+        span {
+            color: $white-color;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        .or {
+            font-weight: bold;
+            font-size: 15px;
+            padding: 14px 12px;
+        }
+
+        .log-in {
+            padding: 13px 12px;
+            span {
+                font-size: 15px;
+                font-weight: bold;
+                color: $primary-color;
+                cursor: pointer;
+                
+            }
+        }
+    }
     //image
 
     .img-place{ 

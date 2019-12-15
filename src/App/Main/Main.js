@@ -31,6 +31,15 @@ function Main() {
                         </label>
                         <div className="agreement-text"><p>Я Підтверджую, що я ознайомлений і повністю згоден з <span>Умовами Угоди про використання сайту ualuck</span></p></div>
                     </div>
+                    <div className="sign-up">
+                        <div className="button">
+                            <span>ЗАРЕЄСТРУВАТИСЯ</span>
+                        </div>
+                        <span className="or">Або</span>
+                        <div className="log-in">
+                            <span>Увійти</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="img-place">
