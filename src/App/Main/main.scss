@@ -30,6 +30,7 @@
         background-color: rgba($color: #ffffff, $alpha: 0.1);
         padding: 10px 20px;
         margin-top: 20px;
+        cursor: pointer;
 
 
         //text in buttons
@@ -52,6 +53,9 @@
         &:first-child {
             border-top-left-radius: 100px;
             border-bottom-left-radius: 100px;
+        }
+        &:hover {
+            background-color: $primary-color;
         }
     }
 
