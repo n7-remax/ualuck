@@ -22,7 +22,14 @@ function Main() {
                         </form>
                     </div>
                     <div className="promocode">
-                    <span>Додати промокод</span><span className="promocode-button">&#43;</span>
+                        <span>Додати промокод</span><span className="promocode-button">&#43;</span>
+                    </div>
+                    <div className="agreement">
+                        <label className="container">
+                            <input type="checkbox"></input>
+                            <span className="checkmark"></span>
+                        </label>
+                        <div className="agreement-text"><p>Я Підтверджую, що я ознайомлений і повністю згоден з <span>Умовами Угоди про використання сайту ualuck</span></p></div>
                     </div>
                 </div>
             </div>
