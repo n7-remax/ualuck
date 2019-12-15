@@ -18,7 +18,7 @@
     }
 
     span {
-        @extend %theme-color;
+        color: $white-color;
         font-size: 63px;
         letter-spacing: 0px;
     }
