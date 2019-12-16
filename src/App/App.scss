@@ -3,15 +3,6 @@
   margin: 0 auto;
 }
 
-.App {
-  background-image: url('../common/images/bg.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
 .row {
   @extend %max-width
 
