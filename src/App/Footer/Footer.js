@@ -12,6 +12,8 @@ function Footer() {
                     <span>«рейтингом букмекерів»</span>
                 </div>
             </div>
+            <div className="payment">
+            </div>
         </footer>
     );
 }

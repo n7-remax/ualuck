@@ -1,7 +1,7 @@
 .footer {
-    padding-bottom: 40px;
+    margin: 40px 0;
     display: flex;
-
+    justify-content: space-between;
 
     .quality{
         display: flex;
@@ -28,5 +28,14 @@
             font-size: 16px;
             letter-spacing: -0.1px;
         }
+    }
+
+    .payment {
+        background-image: url('../../common/images/icons.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 65%;
+        width: 60%;
+        height: auto;
     }
 }
