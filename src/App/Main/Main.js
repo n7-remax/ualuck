@@ -42,7 +42,6 @@ function Main() {
                 </div>
             </div>
             <div className="img-place">
-                <img src={require('../../common/images/soccer-player.png')} alt="soccer player"></img>
             </div>
         </main>
     );

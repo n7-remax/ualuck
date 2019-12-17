@@ -247,13 +247,11 @@
     //image
 
     .img-place{ 
-        text-align: center;
-        
-        img {
-        max-width: 558px;
-        width: 100%;
-        height: auto;
-        }
+        background-image: url('../../common/images/soccer-player.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 30%;
+        width: 50%;
     }
 
 }
