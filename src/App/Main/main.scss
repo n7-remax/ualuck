@@ -1,6 +1,7 @@
 @import "../../common/style/style.scss";
 
 .main {
+    min-height: calc(100vh - 50px);
     display: flex;
     flex-direction: row;
     max-width: 1020px;
