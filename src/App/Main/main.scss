@@ -4,11 +4,10 @@
     // min-height: calc(100vh - 50px);
     display: flex;
     flex-direction: row;
-    max-width: 1020px;
     margin:0 auto;
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: 12%;
 
     .registration-block {
         align-self: center;
@@ -254,7 +253,8 @@
         background-size: 100%;
         background-repeat: no-repeat;
         background-position-y: 30%;
-        width: 50%;
+        width: 500px;
+        height: 590px;
     }
 
 }
