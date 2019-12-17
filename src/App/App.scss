@@ -4,6 +4,8 @@
 }
 
 .row {
-  @extend %max-width
+  @extend %max-width;
+  position: relative;
+  min-height: 100vh;
 
 }
