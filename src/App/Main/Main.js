@@ -33,7 +33,7 @@ function Main() {
                 </div>
                 <div className="sign-up">
                     <div className="button">
-                        <span>ЗАРЕЄСТРУВАТИСЯ</span>
+                        <span>Зареєструватися</span>
                     </div>
                     <span className="or">Або</span>
                     <div className="log-in">
