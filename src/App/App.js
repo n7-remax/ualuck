@@ -1,4 +1,6 @@
 import React from 'react';
+import { Route } from 'react-router-dom'
+
 import './App.scss';
 
 import '../common/style/style.scss'
@@ -10,9 +12,11 @@ function App() {
   return (
     <div className="App">
       <div className="row">
+      <Route exact path="/ualuck">
           <Logo />
           <Main />
           <Footer />
+      </Route>
       </div>
     </div>
   );
